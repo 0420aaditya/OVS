@@ -115,7 +115,11 @@ variable and sets the status variable based on the 'status' session variable.  -
                                     <?php
                              }
                                
-                                // else part removed during debugging
+                                else {
+                        ?>
+                        <button class="vote-button" type="submit">Vote</button>
+                        <?php
+                    }
 
                                 ?>
                             </form>
