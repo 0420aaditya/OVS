@@ -96,8 +96,8 @@ if (move_uploaded_file($_FILES['image']['tmp_name'], $targetFile)) {
 
             // Create the Transport
             $transport = (new Swift_SmtpTransport('smtp.gmail.com', 587, 'tls'))
-                ->setUsername('dhakaladdy00@gmail.com')
-                ->setPassword('mhfmpwllcylsgdvw')
+                ->setUsername('Your Email')
+                ->setPassword('Your Password')
             ;
 
             // Create the Mailer using your created Transport
